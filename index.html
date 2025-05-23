@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Vitor </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <nav id="desktop-nav">
+  <div class="logo">Olá</div>
+  <div>
+    <ul class="nav-links">
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#experience">Experiências</a></li>
+      <li><a href="#projects">Projetos</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+  </div>
+</nav>
+<nav id="hamburger-nav">
+  <div class="logo">Olá</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+      <li><a href="#about" onclick="toggleMenu()">Sobre</a></li>
+      <li><a href="#experience" onclick="toggleMenu()">Experiências</a></li>
+      <li><a href="#projects" onclick="toggleMenu()">Projetos</a></li>
+      <li><a href="#contact" onclick="toggleMenu()">Contato</a></li>
+      </div>
+    </div> 
+  </nav>
+  <section id="profile">
+  <div class="section__text">
+    <p class="section__text__p1">  Eu sou </p>
+    <h1 class="title">Vitor Rodrigues</h1>
+    <p class="section__text__p2">Assistente NOC (REDES)</p>
+    <div class="btn-container">
+      <button class="btn btn-color-2" onclick="window.open('./assets/vitor.pdf')">Download CV</button>
+      <button class="btn btn-color-1" onclick="location.href='./#contact'">Contato</button>
+    </div>
+    <div id="socials-container">
+      <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+        onclick="location.href='https://www.linkedin.com/in/vitor-rodrigues-a4009a232/'" />
+      <img src="./assets/github.png" alt="My Github profile" class="icon"
+        onclick="location.href='https://github.com/vitorrust'" />
+    </div>
+  </div>
+
+  <!-- Agora a imagem vem DEPOIS do texto -->
+</section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about">
+  <h1 class="titulo">Sobre Mim</h1>
+  <div class="about-container">
+    <div class="about-image">
+      <img src="assets/foto inicial.jpg" alt="Foto de perfil" />
+    </div>
+    <div class="about-content">
+      <div class="about-cards">
+        <div class="about-card">
+          <i class="icon">🏅</i>
+          <h3>Experiência</h3>
+        <p>Infraestrutura de Redes</p>
+        <p>Suporte Técnico</p>
+        <p>Documentação</p>
+        <p></p>
+        </div>
+        <div class="about-card">
+          <i class="icon">👥</i>
+          <h3>Educação</h3>
+          <p>Centro Universitário do Centro Oeste<br>Análise e Desenvolvimento de Sistemas</p>
+        </div>
+      </div>
+      <p class="about-description">
+        Sou formado em Análise e Desenvolvimento de Sistemas, com mais de 2 anos de experiência em infraestrutura de TI. Atuo com redes, suporte e monitoramento, 
+          sempre focando na estabilidade e segurança. Atualmente, aprofundo meus conhecimentos em programação e desenvolvo projetos próprios.
+          Busco novas oportunidades que unam tecnologia, estratégia e desafios.
+      </p>
+
+</section>
+
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <p class="section__text__p1"></p>
+  <h1 class="title">Experiências</h1>
+
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container">
+        <h2 class="experience-sub-title">Redes</h2>
+
+        <!-- MOVER OS ARTICLES PARA DENTRO DA DIV article-container -->
+        <div class="article-container">
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>TCP/IP, Subnetting, VLANs </h3>
+              <p>Intermediário</p>
+            </div>
+          </article>
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>Serviços de rede: DHCP, DNS, NAT</h3>
+              <p>Intermediário</p>
+            </div>
+          </article>
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>Switches e Roteadores</h3>
+              <p>Intermediário</p>
+            </div>
+          </article>
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>Zabbix e Grafana</h3>
+              <p>Experiente</p>
+            </div>
+          </article>
+        </div>
+        
+      </div>
+            <div class="details-container">
+        <h2 class="experience-sub-title">Desenvolvimento</h2>
+
+        <!-- MOVER OS ARTICLES PARA DENTRO DA DIV article-container -->
+        <div class="article-container">
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>HTML</h3>
+              <p>Intermediário</p>
+            </div>
+          </article>
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>CSS</h3>
+              <p>Intermediário</p>
+            </div>
+          </article>
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>JavaScript</h3>
+              <p>Intermediário</p>
+            </div>
+          </article>
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>Banco de Dados</h3>
+              <p>Básico</p>
+            </div>
+          </article>
+  
+        </div>
+        
+      </div>
+    </div>
+  </div>
+<section id="projects">
+  <p class="section__text__p1">Meus projetos recentes</p>
+  <h1 class="title">Projetos</h1>
+  <div class="experience-details-container">
+  <div class="about-containers">
+
+   <!-- Projeto 1: Spotify -->
+<div class="details-container color-container">
+  <div class="article-container">
+    <img src="assets/projeto1.jpg" alt="Projeto Spotify" class="project-img img-spotify" />
+    <h2 class="experience-sub-title project-title">Spotify</h2>
+    <div class="btn-container">
+      <button class="btn btn-color-2 project-btn"
+        onclick="location.href='https://github.com/vitorrust/Spotify'">
+        Github
+      </button>
+       <button class="btn btn-color-2 project-btn"
+        onclick="location.href='https://vitorrust.github.io/Spotify/'">
+        Demo
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Projeto 2: Tela Bar -->
+<div class="details-container color-container">
+  <div class="article-container">
+    <img src="assets/projeto2.png" alt="Projeto Tela Bar" class="project-img img-telabar" />
+    <h2 class="experience-sub-title project-title">Tela Bar</h2>
+    <div class="btn-container">
+      <button class="btn btn-color-2 project-btn"
+        onclick="location.href='https://github.com/vitorrust/TelaBar'">
+        Ver Projeto
+      </button>
+    </div>
+  </div>
+</div>
+
+
+  </div>
+</section>
+
+<section id="contact">
+      <p class="section__text__p1">Meus Contatos</p>
+      <h1 class="title">Contatos</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">Vitorrus7@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/404/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#experience">Experiencia</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Vitor Rodrigues</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
