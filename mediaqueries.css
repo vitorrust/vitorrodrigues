@@ -1,0 +1,28 @@
+@media screen and (max-width: 1000px) {
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+    .contact-info-upper-container {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  white-space: nowrap;
+}
+
+  section {
+    padding: 4rem 2rem;
+  }
+}
+
+
