@@ -47,12 +47,14 @@
       <button class="btn btn-color-1" onclick="location.href='./#contact'">Contato</button>
     </div>
     <div id="socials-container">
-      <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
-        onclick="location.href='https://www.linkedin.com/in/vitor-rodrigues-a4009a232/'" />
-      <img src="./assets/github.png" alt="My Github profile" class="icon"
-        onclick="location.href='https://github.com/vitorrust'" />
-    </div>
+        <a href="https://www.linkedin.com/in/vitor-rodrigues-a4009a232/" target="_blank" rel="noopener noreferrer">
+          <img src="./assets/linkedin.png" alt="Meu perfil no LinkedIn" class="icon" />
+    </a>
+        <a href="https://github.com/vitorrust" target="_blank" rel="noopener noreferrer">
+           <img src="./assets/github.png" alt="Meu perfil no GitHub" class="icon" />
+         </a >
   </div>
+
 
   <!-- Agora a imagem vem DEPOIS do texto -->
 </section>
@@ -185,29 +187,34 @@
    <!-- Projeto 1: Spotify -->
 <div class="details-container color-container">
   <div class="article-container">
-    <img src="assets/projeto1.jpg" alt="Projeto Spotify" class="project-img img-spotify" />
+    <a href="https://vitorrust.github.io/Spotify/" target="_blank" rel="noopener noreferrer">
+      <img src="assets/projeto1.jpg" alt="Projeto Spotify" class="project-img img-spotify" />
+    </a>
     <h2 class="experience-sub-title project-title">Spotify</h2>
     <div class="btn-container">
       <button class="btn btn-color-2 project-btn"
-        onclick="location.href='https://github.com/vitorrust/Spotify'">
+        onclick="window.open('https://github.com/vitorrust/Spotify', '_blank')">
         Github
       </button>
-       <button class="btn btn-color-2 project-btn"
-        onclick="location.href='https://vitorrust.github.io/Spotify/'">
+      <button class="btn btn-color-2 project-btn"
+        onclick="window.open('https://vitorrust.github.io/Spotify/', '_blank')">
         Demo
       </button>
     </div>
   </div>
 </div>
 
+
 <!-- Projeto 2: Tela Bar -->
 <div class="details-container color-container">
   <div class="article-container">
-    <img src="assets/projeto2.png" alt="Projeto Tela Bar" class="project-img img-telabar" />
+    <a href="https://github.com/vitorrust/TelaBar" target="_blank" rel="noopener noreferrer">
+      <img src="assets/projeto2.png" alt="Projeto Tela Bar" class="project-img img-telabar" />
+    </a>
     <h2 class="experience-sub-title project-title">Tela Bar</h2>
     <div class="btn-container">
       <button class="btn btn-color-2 project-btn"
-        onclick="location.href='https://github.com/vitorrust/TelaBar'">
+        onclick="window.open('https://github.com/vitorrust/TelaBar', '_blank')">
         Ver Projeto
       </button>
     </div>
@@ -219,26 +226,37 @@
 </section>
 
 <section id="contact">
-      <p class="section__text__p1">Meus Contatos</p>
-      <h1 class="title">Contatos</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:examplemail@gmail.com">Vitorrus7@gmail.com</a></p>
-        </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://www.linkedin.com/404/">LinkedIn</a></p>
-        </div>
-      </div>
+  <p class="section__text__p1">Meus Contatos</p>
+  <h1 class="title">Contatos</h1>
+  <div class="contact-info-upper-container">
+    
+    <!-- Email -->
+    <div class="contact-info-container">
+      <a href="mailto:Vitorrus7@gmail.com">
+        <img
+          src="./assets/email.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        />
+      </a>
+      <p><a href="mailto:Vitorrus7@gmail.com">Vitorrus7@gmail.com</a></p>
+    </div>
+
+    <!-- LinkedIn -->
+    <div class="contact-info-container">
+      <a href="https://www.linkedin.com/in/seu-usuario" target="_blank" rel="noopener noreferrer">
+        <img
+          src="./assets/linkedin.png"
+          alt="LinkedIn icon"
+          class="icon contact-icon"
+        />
+      </a>
+      <p><a href="https://www.linkedin.com/in/seu-usuario" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+    </div>
+
+  </div>
+</section>
+
     </section>
     <footer>
       <nav>
