@@ -26,22 +26,43 @@
 }
 
 
-  .nav-links {
-    flex-direction: column;
+/* ========================= */
+/* RESPONSIVO: EXPERIÊNCIA   */
+/* ========================= */
+
+@media screen and (max-width: 768px) {
+  /* CONTATO RESPONSIVO - EM LINHA (row), MAS AJUSTADO */
+  .contact-info-upper-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .contact-info-container {
+    display: flex;
+    align-items: center;
     gap: 0.5rem;
+    flex: 1 1 200px; /* permite que eles encolham ou cresçam conforme o espaço */
+    min-width: 200px;
+    max-width: 300px;
+    justify-content: center;
     text-align: center;
   }
-  .section__pic-container {
-    width: auto;
-    height: 46vw;
+
+  #contact {
+    height: auto;
+    padding: 2rem 1rem;
+  }
+
+  footer {
+    height: auto;
+    padding: 2rem 1rem;
+  }
+
+  footer .nav-links {
+    flex-wrap: wrap;
     justify-content: center;
+    gap: 1rem;
   }
-  .section__text__p2 {
-    font-size: 1.25rem;
-  }
-  .title {
-    font-size: 2rem;
-  }
-  .text-container {
-    text-align: justify;
-  }
+}
