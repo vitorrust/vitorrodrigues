@@ -505,10 +505,9 @@ article p {
 .project-img {
   width: 300px;
   max-width: 500px; /* controle o tamanho máximo */
-  height: 300px; /* altura padronizada */
+  height: 350px; /* altura padronizada */
   object-fit: cover; /* corta para preencher */
   object-position: center; /* centraliza o corte */
-  border-radius: 1rem;
 }
 
 
